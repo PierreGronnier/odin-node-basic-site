@@ -1,0 +1,21 @@
+{
+  "name": "odin-node-basic-site",
+  "version": "1.0.0",
+  "description": "Basic informational site ",
+  "homepage": "https://github.com/PierreGronnier/odin-node-basic-site#readme",
+  "bugs": {
+    "url": "https://github.com/PierreGronnier/odin-node-basic-site/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PierreGronnier/odin-node-basic-site.git"
+  },
+  "license": "ISC",
+  "author": "Pierre Gronnier",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  }
+}
