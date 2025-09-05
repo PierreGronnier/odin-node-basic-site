@@ -5,7 +5,7 @@ const fs = require("fs");
 const PORT = process.env.PORT || 5000;
 
 const server = http.createServer((req, res) => {
-  if (req.method === "GET") {
+  if (req.method === "GET" || req.method === "HEAD") {
     let filePath = path.join(
       __dirname,
       "public",
